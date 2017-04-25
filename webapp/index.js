@@ -10,6 +10,7 @@ var NodeCache = require("node-cache");
 var uuid = require('uuid');
 var multer  = require('multer');
 var upload = multer({ dest: '/tmp' });
+console.log("VIKAS MISHRA");
 
 
 //this object will map the images SHA256 sums with their captions
